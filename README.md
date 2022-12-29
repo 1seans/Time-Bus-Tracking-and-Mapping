@@ -1,2 +1,11 @@
 # Time-Bus-Tracking-and-Mapping
-using the Mapbox GL JS library to create a map and move a marker along a predetermined route represented by a list of coordinates stored in the busStops array. A Mapbox access token is specified and a new map is created and displayed in an element with the ID map. A marker is then added to the map at the first coordinates in the busStops array. A move function is defined that updates the marker's position every 1000 milliseconds (1 second) by setting its coordinates to the next set of coordinates in the busStops array. The function also increments a counter variable to keep track of the current position in the array. The move function is called once at the end of the code, which will start the process of moving the marker along the route. The code also includes an export statement that makes the move function available for use in other modules.
+## A map application using the Mapbox GL JS library that moves a marker along a predetermined route.
+
+How to Run:
+To run this project, include the Mapbox GL JS library and this code in your HTML file. You will also need to specify a valid Mapbox access token. The map will be displayed in an element with the ID map, and the marker will be moved along the route defined by the coordinates in the busStops array.
+
+Roadmap of future improvements:
+There are several potential improvements that could be made to this project in the future. For example, the route could be made dynamic and user-customizable, or additional features such as pop-ups or overlays could be added to the map. The marker could also be made more interactive, for example by allowing the user to click on it to view more information.
+
+License Information:
+This project is licensed under the MIT license. This means that you are free to use, modify, and distribute the code as long as you include the MIT license and copyright notice in any copies or derivative works.
