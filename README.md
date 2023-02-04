@@ -1,11 +1,20 @@
-# Time-Bus-Tracking-and-Mapping
-## A map application using the Mapbox GL JS library that moves a marker along a predetermined route.
+# Map Animation
+A simple project to animate a marker moving along a set of coordinates on a Mapbox map.
 
-How to Run:
-To run this project, include the Mapbox GL JS library and this code in your HTML file. You will also need to specify a valid Mapbox access token. The map will be displayed in an element with the ID map, and the marker will be moved along the route defined by the coordinates in the busStops array.
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Roadmap of future improvements:
-There are several potential improvements that could be made to this project in the future. For example, the route could be made dynamic and user-customizable, or additional features such as pop-ups or overlays could be added to the map. The marker could also be made more interactive, for example by allowing the user to click on it to view more information.
+### Prerequisites
+You need to have a Mapbox account and access token to run the project.
 
-License Information:
-This project is licensed under the MIT license. This means that you are free to use, modify, and distribute the code as long as you include the MIT license and copyright notice in any copies or derivative works.
+### Installing
+Clone the repository and open index.html in your browser to see the animation.
+
+### Running the animation
+Click the "Show stops between MIT and Harvard" button to start the animation. The marker will move along the set of coordinates in the busStops array.
+
+### Built With
+HTML
+CSS
+JavaScript
+Mapbox GL JS
